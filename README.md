@@ -1,50 +1,63 @@
-# React + TypeScript + Vite
+# GitHub Blog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Desafio
 
-Currently, two official plugins are available:
+Desenvolver uma aplicação utilizando a API do GitHub para criar um blog com funcionalidades de listagem de perfil, busca de issues e exibição de posts completos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Funcionalidades:
 
-## Expanding the ESLint configuration
+1. **Perfil do Usuário:**
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+   - Listar as informações do perfil do GitHub, como:
+     - Imagem do perfil.
+     - Nome do usuário.
+     - Número de seguidores.
+     - Outras informações relevantes disponíveis pela API do GitHub.
 
-- Configure the top-level `parserOptions` property like this:
+2. **Listagem e Filtro de Issues:**
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+   - Buscar todas as issues de um repositório específico.
+   - Listar as issues com um pequeno resumo do conteúdo.
+   - Implementar funcionalidade de filtro para buscar issues por palavras-chave ou outros critérios.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+3. **Exibição de Post Completo:**
+   - Criar uma página dedicada para exibir uma issue completa como um post do blog.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+### Conceitos Utilizados
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Este desafio aborda os seguintes conceitos:
+
+- Consumo de APIs utilizando **Fetch** ou **Axios**.
+- Roteamento com **React Router DOM**.
+- Gerenciamento e manipulação de **Formulários**.
+
+## Tecnologias Sugeridas
+
+Para implementar a aplicação, você pode utilizar as seguintes tecnologias:
+
+- **React** com **TypeScript**.
+- **React Router DOM** para roteamento.
+- **Axios** para consumo da API do GitHub.
+- **CSS** ou bibliotecas como **Material-UI** ou **Styled Components** para estilização.
+
+## Estrutura da Aplicação
+
+1. **Página Inicial:** Exibe as informações do perfil do usuário.
+2. **Página de Issues:** Lista todas as issues com funcionalidade de filtro.
+3. **Página de Post:** Exibe o conteúdo completo de uma issue selecionada.
+
+## Preparativos
+
+Para iniciar o projeto, você precisará:
+
+1. Criar uma conta no GitHub (se ainda não tiver).
+2. Gerar um token de acesso para usar a API do GitHub (opcional, mas recomendado para evitar limitações de requisições).
+3. Familiarizar-se com a [documentação da API do GitHub](https://docs.github.com/pt/rest).
+
+## Contribuindo
+
+Se você deseja contribuir com este projeto, fique à vontade para abrir uma issue.
+
+---
+
+Este projeto é um desafio educacional para praticar o uso de APIs, roteamento e outras funcionalidades do React. Divirta-se codando!
