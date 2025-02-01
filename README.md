@@ -3,11 +3,11 @@
 
 ### Página Inicial (HOME)
 
-![Imagem da Home]([https://github.com/seu-usuario/seu-repositorio/raw/main/caminho/para/imagem-home.png](https://github.com/WladimirStenio/github-blog/blob/main/src/assets/Home.png?raw=true))
+![Imagem da Home](https://github.com/WladimirStenio/github-blog/blob/main/src/assets/Home.png?raw=true)
 
 ### Post Completo
 
-![Imagem do Post]([https://github.com/seu-usuario/seu-repositorio/raw/main/caminho/para/imagem-post.png](https://github.com/WladimirStenio/github-blog/blob/main/src/assets/Post%20Open.png?raw=true))
+![Imagem do Post](https://github.com/WladimirStenio/github-blog/blob/main/src/assets/Post%20Open.png?raw=true)
 
 ## Desafio
 
