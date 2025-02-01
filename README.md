@@ -1,5 +1,14 @@
 # GitHub Blog
 
+
+### Página Inicial (HOME)
+
+![Imagem da Home]([https://github.com/seu-usuario/seu-repositorio/raw/main/caminho/para/imagem-home.png](https://github.com/WladimirStenio/github-blog/blob/main/src/assets/Home.png?raw=true))
+
+### Post Completo
+
+![Imagem do Post]([https://github.com/seu-usuario/seu-repositorio/raw/main/caminho/para/imagem-post.png](https://github.com/WladimirStenio/github-blog/blob/main/src/assets/Post%20Open.png?raw=true))
+
 ## Desafio
 
 Desenvolver uma aplicação utilizando a API do GitHub para criar um blog com funcionalidades de listagem de perfil, busca de issues e exibição de posts completos.
@@ -23,36 +32,20 @@ Desenvolver uma aplicação utilizando a API do GitHub para criar um blog com fu
 3. **Exibição de Post Completo:**
    - Criar uma página dedicada para exibir uma issue completa como um post do blog.
 
-### Conceitos Utilizados
+## Tecnologias Utilizadas
 
-Este desafio aborda os seguintes conceitos:
-
-- Consumo de APIs utilizando **Fetch** ou **Axios**.
-- Roteamento com **React Router DOM**.
-- Gerenciamento e manipulação de **Formulários**.
-
-## Tecnologias Sugeridas
-
-Para implementar a aplicação, você pode utilizar as seguintes tecnologias:
+Para implementar a aplicação, foram utilizadas as seguintes tecnologias:
 
 - **React** com **TypeScript**.
 - **React Router DOM** para roteamento.
 - **Axios** para consumo da API do GitHub.
-- **CSS** ou bibliotecas como **Material-UI** ou **Styled Components** para estilização.
+- **Styled Components** para estilização.
 
 ## Estrutura da Aplicação
 
 1. **Página Inicial:** Exibe as informações do perfil do usuário.
 2. **Página de Issues:** Lista todas as issues com funcionalidade de filtro.
 3. **Página de Post:** Exibe o conteúdo completo de uma issue selecionada.
-
-## Preparativos
-
-Para iniciar o projeto, você precisará:
-
-1. Criar uma conta no GitHub (se ainda não tiver).
-2. Gerar um token de acesso para usar a API do GitHub (opcional, mas recomendado para evitar limitações de requisições).
-3. Familiarizar-se com a [documentação da API do GitHub](https://docs.github.com/pt/rest).
 
 ## Contribuindo
 
